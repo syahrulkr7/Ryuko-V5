@@ -43,7 +43,7 @@ const getAtm = (atm, body) => new Promise(async (resolve) => {
 module.exports.handleReply = async function ({ api, event, handleReply, Users, Threads, getText }) {
     
     const moment = require("moment-timezone");
-      var gio = moment.tz("Asia/Manila").format("DD/MM/YYYY - HH:mm:s");
+      var gio = moment.tz("Asia/Jakarta").format("DD/MM/YYYY - HH:mm:s");
     const { threadID, messageID, senderID, body } = event;
     let name = await Users.getNameUser(senderID);
     switch (handleReply.type) {
@@ -83,7 +83,7 @@ module.exports.handleReply = async function ({ api, event, handleReply, Users, T
 
 module.exports.run = async function ({ api, event, args, Users }) {
     const moment = require("moment-timezone");
-      var gio = moment.tz("Asia/Manila").format("DD/MM/YYYY - HH:mm:s");
+      var gio = moment.tz("Asia/Jakarta").format("DD/MM/YYYY - HH:mm:s");
     const { threadID, messageID, senderID, messageReply } = event;
     const botID = await api.getCurrentUserID();
     const botThread = global.data.allThreadID.get(botID);
