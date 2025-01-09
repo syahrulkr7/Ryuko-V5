@@ -1,8 +1,8 @@
 # main.js
-main.commands=বোট কমান্ড ফাইল "%1" সফলভাবে লোড করা হয়েছে
-main.events=বোট ইভেন্ট ফাইল "%1" সফলভাবে লোড করা হয়েছে।
-main.cmderr=কমান্ড "%1" লোড করা যায়নি, ত্রুটি: %2।
-main.evnterr=ইভেন্ট "%1" লোড করা যায়নি, ত্রুটি: %2।
+main.commands=File perintah bot "%1" telah berhasil dimuat
+main.events=File peristiwa bot "%1" berhasil dimuat.
+main.cmderr=Perintah "%1" tidak dapat dimuat, kesalahan: %2.
+main.evnterr=Acara "%1" tidak dapat dimuat, kesalahan: %2.
 main.configload=%1 ফাইল লোড করা হচ্ছে।
 main.configerr=%1 ফাইল লোড করা যায়নি, ত্রুটি: %2
 main.accountload=%1 ডেটা লোড করা হচ্ছে।
